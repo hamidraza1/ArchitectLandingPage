@@ -1,0 +1,41 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(85, 183, 255, 1) 0%,
+    rgba(107, 134, 255, 1) 66%,
+    rgba(125, 93, 255, 1) 100%
+  );
+  opacity: 0.8;
+}
+.gradient1 {
+  background: linear-gradient(
+    143deg,
+    rgba(35, 49, 68, 1) 0%,
+    rgba(42, 58, 78, 1) 86%,
+    rgba(48, 65, 86, 1) 100%
+  );
+  opacity: 1;
+}
+.gradient2 {
+  background: linear-gradient(
+    56deg,
+    rgba(126, 90, 255, 1) 0%,
+    rgba(37, 199, 248, 1) 77%,
+    rgba(37, 199, 248, 1) 100%
+  );
+}
+.gradient3 {
+  background: linear-gradient(
+    56deg,
+    rgba(85, 183, 255, 1) 0%,
+    rgba(108, 132, 255, 1) 54%,
+    rgba(126, 90, 255, 1) 100%
+  );
+  opacity: 0.95;
+}
