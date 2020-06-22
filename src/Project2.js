@@ -7,8 +7,8 @@ class Project2 extends Component {
       <div className="flex flex-col items-center w-full">
         <div className="flex w-full mt-32">
           <div
-            className="flex flex-col pl-56 pr-20 pt-32 "
-            style={{ width: "47%" }}
+            className="flex flex-col pl-56 pr-20 pt-32 lg:pl-40"
+            style={{ width: "43%" }}
           >
             <h3 className="text-base text-myColors-darkBlack">
               INTERNATIONAL <br />
@@ -17,7 +17,7 @@ class Project2 extends Component {
                 COMMERCE CENTER
               </span>
             </h3>
-            <p className="mt-6" style={{ width: "450px", color: "#7b818a" }}>
+            <p className="mt-6 w-full" style={{ width: "", color: "#7b818a" }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
@@ -36,7 +36,7 @@ class Project2 extends Component {
             </div>
           </div>
 
-          <div className="flex" style={{ width: "53%" }}>
+          <div className="flex" style={{ width: "57%" }}>
             <div
               style={{
                 width: "100%",

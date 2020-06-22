@@ -5,8 +5,8 @@ class Project1 extends Component {
   render() {
     return (
       <div className="flex flex-col items-center w-full">
-        <div className="mt-40 border-t border-myColors-darkBlack h-2 w-24"></div>
-        <div className="text-myColors-darkBlack text-3xl font-bold tracking-wider">
+        <div className="mt-40 border-t border-myColors-darkBlack h-2 w-24 lg:mt-32"></div>
+        <div className="text-myColors-darkBlack text-3xl font-bold tracking-wider lg:text-2xl">
           WHAT WE DO
         </div>
         <div className="flex mt-24 w-4/6 justify-between ">
@@ -53,47 +53,56 @@ class Project1 extends Component {
         </div>
 
         <div className="flex  w-full mt-24">
-          <div className="flex" style={{ width: "53%" }}>
+          <div className="flex" style={{ width: "57%" }}>
             <div
-              className=""
+              className="xl:w-125 xl:h-117.5 lg:w-100 lg:h-94"
               style={{
-                width: "70%",
-                height: "470px",
                 backgroundColor: "#55b7ff",
+                zIndex: "-1",
               }}
             ></div>
+
             <div
-              style={{ marginLeft: "-370px", marginTop: "70px", width: "70%" }}
+              className="xl:w-125 xl:h-117.5 lg:w-100 lg:h-94"
+              style={{
+                marginLeft: "-300px",
+                marginTop: "100px",
+              }}
               className=""
             >
               <img
-                className=""
-                style={{ width: "", height: "470px" }}
+                className="xl:w-125 xl:h-117.5 lg:w-100 lg:h-94"
                 src={process.env.PUBLIC_URL + "/images/Project1.jpg"}
               />
             </div>
           </div>
 
-          <div className="flex flex-col pl-20 pt-32 " style={{ width: "47%" }}>
+          <div
+            className="flex flex-col pl-20 pt-32 lg:pt-24 "
+            style={{ width: "43%" }}
+          >
             <h3 className="text-base text-myColors-darkBlack">
               ONE WORLD <br />
-              <span className="text-3xl font-bold text-myColors-darkBlack">
+              <span className="text-2xl font-bold text-myColors-darkBlack">
                 {" "}
                 TRADE CENTER
               </span>
             </h3>
-            <p className="mt-6" style={{ width: "458px", color: "#7b818a" }}>
+            <p
+              className="mt-4 w-112.5 xl:w-112.5 xl:pr-10 lg:w-90 lg:pr-8 "
+              style={{ color: "#7b818a" }}
+            >
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s
             </p>
             <button
-              className="w-48 h-12 border  mt-10 border-myColors-darkBlack text-myColors-darkBlack"
+              className="w-48 h-12 border  mt-10 border-myColors-darkBlack text-myColors-darkBlack lg:w-40 lg:mt-8"
               style={{}}
             >
               MORE DETAILS
             </button>
-            <div className="flex items-center mt-16">
+            <div className="flex items-center mt-16 lg:mt-12">
               <MdLocationOn />
               <span className="text-myColors-darkBlack ml-2">
                 New York City, United States - 1776 feet

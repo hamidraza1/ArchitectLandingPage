@@ -5,7 +5,6 @@ import MainPage from "./MainPage";
 import News from "./News";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
-import ContactForm from "./ContactForm";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <News />
       <Gallery />
       <Contact />
-      <ContactForm />
     </div>
   );
 }

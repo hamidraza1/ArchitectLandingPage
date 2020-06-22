@@ -298,6 +298,14 @@ module.exports = {
       ...theme("spacing"),
       full: "100%",
       screen: "100vh",
+      112.5: "450px",
+      117.5: "470px",
+      131.25: "525px",
+      80: "320px",
+      100: "400px",
+      160: "640px",
+      200: "800px",
+      94: "376px",
     }),
     inset: {
       "0": "0",
@@ -310,6 +318,7 @@ module.exports = {
       wide: "0.025em",
       wider: "0.05em",
       widest: "0.1em",
+      extrawidest: "0.3em",
     },
     lineHeight: {
       none: "1",
@@ -333,7 +342,9 @@ module.exports = {
       decimal: "decimal",
     },
     margin: (theme, { negative }) => ({
+      100: "400px",
       auto: "auto",
+
       ...theme("spacing"),
       ...negative(theme("spacing")),
     }),
@@ -449,6 +460,12 @@ module.exports = {
       "11/12": "91.666667%",
       full: "100%",
       screen: "100vw",
+      "12/25": "48%",
+      "75": "300px",
+      "125": "500px",
+      "100": "400px",
+      "112.5": "450px",
+      "90": "360px",
     }),
     zIndex: {
       auto: "auto",
