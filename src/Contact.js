@@ -7,9 +7,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div style={{ height: "700px" }} className="flex justify-center w-full">
+        <div className="flex justify-center w-full xl:h-175 lg:h-140">
           <div
-            className=" absolute flex justify-between mt-24 ml-48"
+            className=" absolute flex justify-between xl:mt-24 lg:mt-20 md:mt-12 "
             style={{ width: "39%" }}
           >
             <div style={{ width: "17%" }} className="flex items-center">
@@ -21,8 +21,8 @@ class Contact extends Component {
             </div>
 
             <div
-              style={{ width: "79%", height: "130px" }}
-              className="flex bg-white"
+              style={{ width: "79%" }}
+              className="flex bg-white xl:h-32 lg:h-24 md:h-16"
             >
               <img
                 style={{ width: "30%" }}
@@ -31,11 +31,11 @@ class Contact extends Component {
               />
               <div
                 style={{ width: "70%" }}
-                className="text-base text-myColors-midBlack font-bold flex flex-col justify-center pl-8"
+                className="text-myColors-midBlack lg:font-bold flex flex-col justify-center xl:text-base xl:pl-8 lg:text-sm lg:pl-6 md:text-xs md:font-medium md:pl-2"
               >
                 MONTICELLO GROUP HQ <br />
                 <span className="text-xs text-myColors-midBlue flex items-center ">
-                  <TiLocationArrow className="inline-block text-base mr-1" />
+                  <TiLocationArrow className="inline-block text-base lg:mr-1 md:mr-0" />
                   GET A DIRECTION
                 </span>
               </div>

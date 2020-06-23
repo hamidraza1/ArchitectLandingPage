@@ -4,16 +4,16 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaHeart } from "react-icons/fa";
 class Footer extends Component {
   render() {
     return (
-      <div className="relative w-full h-131.25" style={{ zIndex: "-1" }}>
+      <div
+        className="relative w-full lg:h-131.25 md:h-100 lg:block md:block"
+        style={{ zIndex: "-1" }}
+      >
         <img
-          className="w-full"
-          style={{ height: "525px", marginTop: "-194px", opacity: "0.5" }}
+          className="w-full  lg:h-131.25 md:h-100 "
+          style={{ marginTop: "-194px", opacity: "0.5" }}
           src={process.env.PUBLIC_URL + "/images/footer.jpg"}
         />
-        <div
-          className=" w-full absolute top-0     gradient3 "
-          style={{ height: "525px" }}
-        ></div>
+        <div className=" w-full absolute bottom-0  lg:h-113 md:h-51.5     gradient3 "></div>
 
         <div
           className="flex flex-col relative items-center  justify-center  w-full "
