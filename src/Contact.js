@@ -32,10 +32,10 @@ class Contact extends Component {
               />
               <div
                 style={{ width: "70%" }}
-                className="text-myColors-midBlack lg:font-bold flex flex-col justify-center xl:text-base xl:pl-8 lg:text-sm lg:pl-6 md:text-xs md:font-medium md:pl-2  sm:text-xs sm:font-thin sm:pl-1  text-xs font-thin pl-1"
+                className="text-myColors-midBlack lg:font-bold flex flex-col justify-center xl:text-base xl:pl-8 lg:text-sm lg:pl-6 md:text-xs md:font-medium md:pl-2  sm:text-xs  sm:font-thin sm:pl-1  text-xs font-thin pl-1"
               >
-                MONTICELLO GROUP HQ <br />
-                <span className="text-xs text-myColors-midBlue flex items-center md:text-base sm:text-xs text-xs">
+                Monticello Group HQ <br />
+                <span className="text-xs text-myColors-midBlue flex items-center md:text-base sm:text-xs text-xs sm:block hidden">
                   <TiLocationArrow className="inline-block text-base lg:mr-1  md:mr-0  sm:mr-0 mr-0  " />
                   GET A DIRECTION
                 </span>

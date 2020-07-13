@@ -19,7 +19,7 @@ class Footer extends Component {
           className="flex flex-col relative items-center  justify-center  w-full sm:hidden hidden lg:flex "
           style={{ marginTop: "-335px" }}
         >
-          <ul className="flex justify-between w-7/12 py-10 w-12/25 ">
+          <ul className="flex justify-between w-7/12 py-10 ">
             <li className="text-xs text-white flex items-center">
               <a className="" href="#">
                 HOME
@@ -73,7 +73,7 @@ class Footer extends Component {
           className="flex flex-col relative items-center  justify-center  w-full sm:flex flex lg:hidden "
           style={{ marginTop: "-235px" }}
         >
-          <ul className="flex justify-between w-7/12 pt-10 pb-4 w-12/25 ">
+          <ul className="flex justify-between  w-11/12 sm:w-7/12 pt-10 pb-4  ">
             <li className="text-xs text-white flex items-center">
               <a className="" href="#">
                 HOME
@@ -97,13 +97,13 @@ class Footer extends Component {
           </ul>
           <div className=" border-t border-white h-2 w-1/2 border-opacity-25"></div>
 
-          <div className="flex items-center  w-3/4 -mt-4  ">
+          <div className="flex sm:flex-row flex-col items-center w-11/12 justify-between   sm:w-3/4 sm:-mt-4  -mt-10 ">
             <img
-              style={{ marginLeft: "50px", marginTop: "15px", height: "100px" }}
+              style={{ marginLeft: "px", marginTop: "15px", height: "100px" }}
               src={process.env.PUBLIC_URL + "/images/Homepage-Recovered.png"}
             />
 
-            <div className="flex ml-8 md:ml-0 sm:-ml-10 -ml-10">
+            <div className="flex ml-8 md:ml-0 sm:-ml-10  sm:mt-0  -mt-6">
               <div className=" md:mr-3 text-white  px-2 py-2 h-8 w-8 md:border border-white rounded-full sm:border-0 sm:mr-1 border-0 mr-1  ">
                 <FaFacebookF className="" />
               </div>
@@ -115,7 +115,7 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-          <div className="flex sm:items-start sm:w-1/2 w-full items-center justify-center text-white text-xs -mt-3">
+          <div className="flex sm:items-start sm:w-1/2 w-full sm:items-center justify-center text-white text-xs sm:-mt-3 mt-4">
             <div className="">
               Copyrights © 2017 Monticello | Made with by{" "}
               <FaHeart className="inline-block mx-1" /> Gay Huy

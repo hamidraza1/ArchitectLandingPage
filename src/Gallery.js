@@ -11,7 +11,7 @@ class Gallery extends Component {
         <div className="text-myColors-darkBlack xl:text-3xl font-bold tracking-wider lg:text-2xl md:text-2xl sm:text-xl text-lg ">
           GALLERY
         </div>
-        <div className="flex justify-between  w-9/12 xl:h-110 xl:mt-24 lg:h-88 lg:mt-20 md:h-64 md:mt-16 sm:h-48 sm:mt-8 h-48 mt-8 ">
+        <div className="flex justify-between  w-9/12 xl:h-110 xl:mt-24 lg:h-88 lg:mt-20 md:h-64 md:mt-16 sm:h-48 sm:mt-8 h-32 mt-8 ">
           <div
             style={{ width: "49%" }}
             className="bg-gray-300 flex items-center justify-center"

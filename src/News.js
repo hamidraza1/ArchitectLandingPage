@@ -30,19 +30,19 @@ class News extends Component {
               />
               <img
                 src={process.env.PUBLIC_URL + "/images/news1.jpg"}
-                className="md:h-full lg:hidden md:block sm:h-full sm:block h-full block"
+                className="md:h-full lg:hidden md:block sm:h-full sm:block h-full block hidden"
               />
 
               <div className="flex lg:flex-col md:flex-col sm:flex-col flex-col ">
-                <h2 className=" font-bold text-myColor-darkBlack  xl:text-lg xl:pl-6 xl:pt-5 md:text-base md:pl-6 md:pt-5   sm:text-sm sm:pl-6 sm:pt-5 text-sm pl-6 pt-5">
+                <h2 className=" font-bold text-myColor-darkBlack  xl:text-lg xl:pl-6 xl:pt-5 md:text-base md:pl-6 md:pt-5   sm:text-sm sm:pl-6 sm:pt-5 text-sm pl-2 pt-1">
                   SEE THE UNMATCHED BEAUTY OF THE GREAT.
                 </h2>
                 <div className="flex lg:flex-col md:flex-row md:justify-between    sm:flex-row  sm:justify-between flex-row justify-between">
-                  <p className="pl-6 mr-4 text-myColors-lightBlack pt-2 xl:pl-6 xl:pt-2  xl:mr-4  lg:pl-6 lg:pt-1 lg:mr-4 lg:w-full md:w-8/12 md:mr-2 md:pt-0 md:text-base   sm:w-8/12 sm:mr-2 sm:pt-0 sm:text-xs  w-8/12 mr-2 pt-0 text-xs ">
+                  <p className="pl-2 mr-4 text-myColors-lightBlack pt-2 xl:pl-6 xl:pt-2  xl:mr-4  lg:pl-6 lg:pt-1 lg:mr-4 lg:w-full md:w-8/12 md:mr-2 md:pt-0 md:text-base   sm:w-8/12 sm:mr-2 sm:pt-0 sm:pl-6 sm:text-xs  w-8/12 mr-2 pt-0 text-xs ">
                     Free directories: directories are perfect for customers that
                     are... searching for
                   </p>
-                  <div className="flex   items-center xl:mt-10 xl:pl-6 lg:pl-6 lg:mt-2  md:mt-0 md:pl-2 md:pr-2    sm:mt-2 sm:pl-0 sm:pr-2  mt-2 pl-0 pr-2 ">
+                  <div className="flex sm:flex-row flex-col  items-center xl:mt-10 xl:pl-6 lg:pl-6 lg:mt-2  md:mt-0 md:pl-2 md:pr-2    sm:mt-2 sm:pl-0 sm:pr-2  mt-0 pl-0 pr-2 ">
                     <div>
                       <img
                         src={
@@ -57,7 +57,7 @@ class News extends Component {
                         ISSAC
                       </span>
                       <br />
-                      <span className="text-xs text-myColors-blue">
+                      <span className="text-xs text-myColors-blue ">
                         09 Feb 2017
                       </span>
                     </div>
@@ -74,18 +74,18 @@ class News extends Component {
               />
               <img
                 src={process.env.PUBLIC_URL + "/images/news2.jpg"}
-                className="md:h-full lg:hidden md:block sm:h-full sm:block h-full block"
+                className="md:h-full lg:hidden md:block sm:h-full sm:block h-full block hidden"
               />
 
               <div className="flex lg:flex-col md:flex-col sm:flex-col flex-col ">
-                <h2 className=" font-bold text-myColor-darkBlack  xl:text-lg xl:pl-6 xl:pt-5 md:text-base md:pl-6 md:pt-5   sm:text-sm sm:pl-6 sm:pt-5 text-sm pl-6 pt-5">
+                <h2 className=" font-bold text-myColor-darkBlack  xl:text-lg xl:pl-6 xl:pt-5 md:text-base md:pl-6 md:pt-5   sm:text-sm sm:pl-6 sm:pt-5 text-sm pl-2 pt-1">
                   EFFECTIVE ADVERTISING POINTERS
                 </h2>
                 <div className="flex lg:flex-col md:flex-row md:justify-between    sm:flex-row  sm:justify-between flex-row justify-between">
-                  <p className="pl-6 mr-4 text-myColors-lightBlack pt-2 xl:pl-6 xl:pt-2  xl:mr-4  lg:pl-6 lg:pt-1 lg:mr-4 lg:w-full md:w-8/12 md:mr-2 md:pt-0 md:text-base   sm:w-8/12 sm:mr-2 sm:pt-0 sm:text-xs  w-8/12 mr-2 pt-0 text-xs ">
+                  <p className="pl-2 sm:pl-6 mr-4 text-myColors-lightBlack pt-2 xl:pl-6 xl:pt-2  xl:mr-4  lg:pl-6 lg:pt-1 lg:mr-4 lg:w-full md:w-8/12 md:mr-2 md:pt-0 md:text-base   sm:w-8/12 sm:mr-2 sm:pt-0 sm:text-xs  w-8/12 mr-2 pt-0 text-xs ">
                     Having home based issue is a wonderful asset of your life.
                   </p>
-                  <div className="flex   items-center xl:mt-10 xl:pl-6 lg:pl-6 lg:mt-2  md:mt-0 md:pl-2 md:pr-2    sm:mt-2 sm:pl-0 sm:pr-2  mt-2 pl-0 pr-2 ">
+                  <div className="flex sm:flex-row flex-col   items-center xl:mt-10 xl:pl-6 lg:pl-6 lg:mt-2  md:mt-0 md:pl-2 md:pr-2    sm:mt-2 sm:pl-0 sm:pr-2  mt-2 pl-0 pr-2 ">
                     <div>
                       <img
                         src={
@@ -117,19 +117,19 @@ class News extends Component {
               />
               <img
                 src={process.env.PUBLIC_URL + "/images/news3.jpg"}
-                className="md:h-full lg:hidden md:block sm:h-full sm:block h-full block"
+                className="md:h-full lg:hidden md:block sm:h-full sm:block h-full block hidden"
               />
 
               <div className="flex lg:flex-col md:flex-col sm:flex-col flex-col ">
-                <h2 className=" font-bold text-myColor-darkBlack  xl:text-lg xl:pl-6 xl:pt-5 md:text-base md:pl-6 md:pt-5   sm:text-sm sm:pl-6 sm:pt-5 text-sm pl-6 pt-5">
+                <h2 className=" font-bold text-myColor-darkBlack  xl:text-lg xl:pl-6 xl:pt-5 md:text-base md:pl-6 md:pt-5   sm:text-sm sm:pl-6 sm:pt-5 text-sm pl-2 pt-1">
                   HYPTONIZE YOURSELF INTO THE GHOST.
                 </h2>
                 <div className="flex lg:flex-col md:flex-row md:justify-between    sm:flex-row  sm:justify-between flex-row justify-between">
-                  <p className="pl-6 mr-4 text-myColors-lightBlack pt-2 xl:pl-6 xl:pt-2  xl:mr-4  lg:pl-6 lg:pt-1 lg:mr-4 lg:w-full md:w-8/12 md:mr-2 md:pt-0 md:text-base   sm:w-8/12 sm:mr-2 sm:pt-0 sm:text-xs  w-8/12 mr-2 pt-0 text-xs ">
+                  <p className="pl-2 sm:pl-6 mr-4 text-myColors-lightBlack pt-2 xl:pl-6 xl:pt-2  xl:mr-4  lg:pl-6 lg:pt-1 lg:mr-4 lg:w-full md:w-8/12 md:mr-2 md:pt-0 md:text-base   sm:w-8/12 sm:mr-2 sm:pt-0 sm:text-xs  w-8/12 mr-2 pt-0 text-xs ">
                     There are many things that are important to catalog
                     design....
                   </p>
-                  <div className="flex   items-center xl:mt-10 xl:pl-6 lg:pl-6 lg:mt-2  md:mt-0 md:pl-2 md:pr-2    sm:mt-2 sm:pl-0 sm:pr-2  mt-2 pl-0 pr-2 ">
+                  <div className="flex sm:flex-row flex-col   items-center xl:mt-10 xl:pl-6 lg:pl-6 lg:mt-2  md:mt-0 md:pl-2 md:pr-2    sm:mt-2 sm:pl-0 sm:pr-2  mt-2 pl-0 pr-2 ">
                     <div>
                       <img
                         src={

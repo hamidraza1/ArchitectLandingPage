@@ -9,15 +9,15 @@ class Project1 extends Component {
         <div className="text-myColors-darkBlack xl:text-3xl font-bold tracking-wider lg:text-2xl md:text-2xl sm:text-2xl text-xl">
           WHAT WE DO
         </div>
-        <div className="flex xl:mt-24 xl:w-4/6 justify-between lg:mt-20 md:mt-16 md:w-4/5 sm:mt-12 sm:w-4/5 mt-8 w-4/5">
+        <div className="flex xl:mt-24 xl:w-4/6 justify-between lg:mt-20 md:mt-16 md:w-4/5 sm:mt-12 sm:w-4/5 mt-8 w-full">
           <div className="flex flex-col items-center">
             <img
               className="md:w-16 md:h-12 sm:w-12 sm:h-8 w-10 h-6"
               src={process.env.PUBLIC_URL + "/images/Appartment.png"}
             />
             <div className=" mt-4   border-t border-myColors-darkBlack h-2 w-8 border-myColors-darkBlack "></div>
-            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs">
-              APARTMENT
+            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs sm:uppercase tracking-tighter">
+              APPARTMENT
             </p>
           </div>
           <div className="flex flex-col items-center">
@@ -26,7 +26,7 @@ class Project1 extends Component {
               src={process.env.PUBLIC_URL + "/images/Villas.png"}
             />
             <div className="m-auto mt-4  border-t border-myColors-darkBlack h-2 w-8 border-myColors-darkBlack "></div>
-            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs">
+            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs sm:uppercase tracking-tighter">
               VILLAS
             </p>
           </div>
@@ -36,7 +36,7 @@ class Project1 extends Component {
               src={process.env.PUBLIC_URL + "/images/TradeCenter.png"}
             />
             <div className="m-auto mt-4  border-t border-myColors-darkBlack h-2 w-8 border-myColors-darkBlack "></div>
-            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs">
+            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs sm:uppercase tracking-tighter">
               TRADECENTER
             </p>
           </div>
@@ -46,7 +46,7 @@ class Project1 extends Component {
               src={process.env.PUBLIC_URL + "/images/SkyScrappers.png"}
             />
             <div className="m-auto mt-4  border-t border-myColors-darkBlack h-2 w-8 border-myColors-darkBlack "></div>
-            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs">
+            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs sm:uppercase tracking-tighter">
               SKYSCRAPPER
             </p>
           </div>
@@ -56,7 +56,7 @@ class Project1 extends Component {
               src={process.env.PUBLIC_URL + "/images/hut.png"}
             />
             <div className="m-auto mt-4  border-t border-myColors-darkBlack h-2 w-8 border-myColors-darkBlack "></div>
-            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs">
+            <p className="text-myColors-darkBlack md:text-base sm:text-sm text-xs sm:uppercase tracking-tighter">
               MANSION
             </p>
           </div>
